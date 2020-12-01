@@ -1,0 +1,19 @@
+{
+  "name": "@loomhq/camera-bubble-click-thru-workaround",
+  "description": "mac work around for click through on electron v7 and up",
+  "version": "0.0.1",
+  "license": "UNLICENSED",
+  "private": true,
+  "gypfile": true,
+  "main": "main.js",
+  "scripts": {
+    "clean": "node-gyp clean",
+    "build": "node-gyp build",
+    "rebuild": "node-gyp clean; node-gyp configure; node-gyp build"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "dependencies": {
+    "bindings": "~1.2.1",
+    "node-addon-api": "^3.0.0"
+  }
+}
