@@ -5,6 +5,7 @@
   "license": "UNLICENSED",
   "gypfile": true,
   "main": "main.js",
+  "types": "main.d.ts",
   "scripts": {
     "clean": "node-gyp clean",
     "build": "node-gyp build",
